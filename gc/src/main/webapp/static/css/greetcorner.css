@@ -1,0 +1,120 @@
+/*
+Old background color : 49A7F0;
+New colour : 7EC0F3;
+*/
+@import url(http://fonts.googleapis.com/css?family=Handlee);
+
+html {
+  background: #7EC0F3 url("static/images/moon1.png") 100% 0 no-repeat;
+  background-attachment: fixed;
+}
+body {
+  background: none;
+  font-family: "Handlee","cursive", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #FFF;
+}
+.container{
+
+}
+/* NAVIGATION */
+nav {
+  position: absolute;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.navbar-brand {
+  display: none;
+  color: white;
+}
+.navbar-toggle {
+  color: white;
+}
+.navbar-nav {
+  float: none;
+  text-align: center;
+}
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 110px;
+}
+.navbar-nav > li a {
+  color: #fff;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -ms-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+}
+.navbar-nav > li.home a {
+  font-size: 26px;
+}
+/*.navbar-nav > li.home a > img {
+ # margin: 10px auto;
+}
+*/.nav > li.active > a {
+  text-decoration: none;
+  background-color: transparent;
+  border-bottom: 3px solid white;
+}
+.nav  > li  > a:hover,
+.nav  > li  > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  border-bottom: 3px solid white;
+}
+.nav  > li.home  > a:hover,
+.nav  > li.home  > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  border-bottom: 3px solid transparent;
+}
+/* END NAVIGATION */
+
+.blue{
+	color: #31B0D5;
+}
+.red{
+	color: #D9534F;
+}
+.green{
+	color: #449D44;
+}
+.center{
+  text-align:center!important
+}
+
+a{
+	text-decoration: none;
+  color: #ff0;
+}
+a:hover{
+	text-decoration: none;
+  color: #fff;
+}
+.bigger-100{
+	font-size: 100px;
+}
+/* Bootstrap Hover buttons overridden */
+.btn-default:hover {
+    transform: scale(1.05);
+}
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+.btn-info:hover {
+    transform: scale(1.05);
+}
+.btn-success:hover {
+    transform: scale(1.05);
+}
+.btn-warning:hover {
+    transform: scale(1.05);
+}
+.btn-danger:hover {
+    transform: scale(1.05);
+}
+/* End of Bootstrap button hover customization*/

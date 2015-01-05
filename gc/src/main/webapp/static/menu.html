@@ -1,0 +1,58 @@
+
+<nav class="navbar" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+              <span class="sr-only">Toggle navigation</span>
+                <span class="btn btn-primary">Menu</span> 
+          </button>
+          <a class="navbar-brand" href="#">achieve</a>
+      </div>
+      
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div style="height: 1px;" class="navbar-collapse collapse" id="navbar">
+          <ul class="nav navbar-nav">
+            <!-- {%if user.is_authenticated%} -->
+                <li>
+                    <a href="/gc">Home</a>
+                </li>
+                <li>
+                    <a href="/gc/templates">Cards</a>
+                </li>
+                <li class="home">
+                    <a href="gc">
+                        <img src="static/images/logo-no-text.png" alt="Home" height="128" width="128">
+                        <br>
+                        Greet Corner
+                    </a>
+                </li>
+                <li>
+                    <a href="/gc/mytemplates">My Cards</a>
+                </li>    
+                <li>    
+           
+                    <a id="logout">Logout</a>
+               </li>  
+               <!-- <script>
+                  $("#logout").click(function(){
+                    $("#logout-form").submit();
+                  });
+               </script>   -->           
+            <!-- {%else%}
+                <li>
+                    <a href="{%url 'home'%}">Home</a>
+                </li>
+                <li class="home">
+                    <a href="{%url 'home'%}">
+                        <img src="/static/images/logo-no-text.png" alt="Home" height="128" width="128">
+                        <br>
+                        Greet Corner
+                    </a>
+                </li>
+                <li>
+                    <a href="{%url 'account_login'%}">Login</a>
+                </li>
+            {%endif%} -->
+          </ul>
+      </div>
+  </nav>

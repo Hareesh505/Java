@@ -1,0 +1,10 @@
+{
+  "realm": "demo",
+  "realm-public-key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzlYZR2NAar86t50SYLegwi1pyK4nE/Qlo6VpkJ14x3GbxouchWT94WsdsV93/2cthoRwP6C1z8IvgNsmPzON2UjXNy2qP62XYBOT2oH5AIVR/jYa26as4Rj0goMD5jw4a2u6ouuPb6kV6kqQpfwsXofYTe1Io+n/0vxyaUgzvtQIDAQAB",
+  "auth-server-url": "http://localhost:8080/auth",
+  "ssl-required": "external",
+  "resource": "gc",
+  "credentials": {
+    "secret": "24097501-7488-42b6-9a32-08ef1978b6de"
+  }
+}

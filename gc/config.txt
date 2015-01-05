@@ -1,0 +1,38 @@
+S:\Hareesh files\spring3hibernateintegration [master]> rhc cartridge add mysql-5.5 -a spring3hibernateintegration
+DL is deprecated, please use Fiddle
+Adding mysql-5.5 to application 'spring3hibernateintegration' ... done
+
+mysql-5.5 (MySQL 5.5)
+---------------------
+  Gears:          Located with jbossews-2.0
+  Connection URL: mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/
+  Database Name:  spring3hibernateintegration
+  Password:       pmHmSsxN4xFv
+  Username:       adminrd6tYV2
+
+MySQL 5.5 database added.  Please make note of these credentials:
+
+       Root User: adminrd6tYV2
+   Root Password: pmHmSsxN4xFv
+   Database Name: spring3hibernateintegration
+
+Connection URL: mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/
+
+You can manage your new MySQL database by also embedding phpmyadmin.
+The phpmyadmin username and password will be the same as the MySQL credentials above.
+S:\Hareesh files\spring3hibernateintegration [master]> rhc cartridge add phpmyadmin  -a spring3hibernateintegration
+S:\Hareesh files\spring3hibernateintegration [master]> rhc cartridge add phpmyadmin  -a spring3hibernateintegration
+DL is deprecated, please use Fiddle
+Using phpmyadmin-4 (phpMyAdmin 4.0) for 'phpmyadmin'
+Adding phpmyadmin-4 to application 'spring3hibernateintegration' ... done
+
+phpmyadmin-4 (phpMyAdmin 4.0)
+-----------------------------
+  Gears:          Located with jbossews-2.0, mysql-5.5
+  Connection URL: https://spring3hibernateintegration-hareesh505.rhcloud.com/phpmyadmin/
+
+Please make note of these MySQL credentials again:
+  Root User: adminrd6tYV2
+  Root Password: pmHmSsxN4xFv
+URL: https://spring3hibernateintegration-hareesh505.rhcloud.com/phpmyadmin/
+S:\Hareesh files\spring3hibernateintegration [master]>

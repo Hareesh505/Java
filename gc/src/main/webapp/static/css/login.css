@@ -1,0 +1,109 @@
+#loginbox {
+  height: 375px;
+  width: 400px;
+  background: #ffffff;
+  overflow: hidden !important;
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top : 5px;
+}
+@media (max-width: 480px) {
+  #loginbox {
+    width: 100%;
+    margin-top : 20px;
+  }
+}
+@media (max-width: 768px) {
+  #loginbox {
+    margin-top : 20px;
+  }
+}
+#loginbox form {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#loginbox form#loginform {
+  z-index: 200;
+}
+#loginbox form#recoverform {
+  z-index: 100;
+  opacity: 0;
+  display: none;
+}
+#loginbox form#recoverform .control-group {
+  margin: 23px 0;
+}
+#loginbox form#registerform {
+  z-index: 100;
+  opacity: 0;
+  display: none;
+}
+#loginbox p {
+  margin-top: 15px;
+  padding: 0 20px;
+}
+@media (max-width: 400px) {
+  #loginbox p {
+    font-size: 60px !important;
+  }
+}
+#loginbox a {
+  color: #31B0D5;
+}
+#loginbox .form-actions {
+  padding: 5px 20px 15px;
+  border-radius: 0 0 30px 30px;
+}
+#loginbox .form-actions .pull-left,
+#loginbox .form-actions .pull-right {
+  margin-bottom: 10px;
+}
+#loginbox .form-actions .pull-left {
+  text-align: left;
+}
+#loginbox .form-actions .pull-right {
+  text-align: right;
+}
+.input-group {
+  padding: 0 20px 5px;
+}
+.footer-login {
+  border-top: 1px solid #e6e6e6;
+}
+.footer-login .text {
+  font-size: 16px;
+  color: #555555;
+  padding: 12px 20px;
+}
+.btn-social .btn {
+  display: inline-block;
+  font-size: 20px;
+  border-left: 2px solid #e6e6e6;
+  color: #888888;
+  margin: 0 0 0 -4px;
+  border-radius: 0;
+}
+.btn-social .btn:hover {
+  color: #fff;
+}
+.btn-social .btn.btn-facebook:hover {
+  background-color: #428bca;
+}
+.btn-social .btn.btn-twitter:hover {
+  background-color: #5bc0de;
+}
+.btn-social .btn.btn-google-plus:hover {
+  background-color: #d9534f;
+}
+.btn-social .btn i {
+  padding: 0 15px 0 17px;
+}
+hr {
+  margin: 8px 0 -5px;
+}
