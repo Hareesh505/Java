@@ -1,4 +1,4 @@
-The OpenShift `jbossews` cartridge documentation can be found at:
+The OpenShift `jbossews` cartridge documentation can be found at:   
 
 http://openshift.github.io/documentation/oo_cartridge_guide.html#tomcat
 
@@ -19,6 +19,9 @@ Please make note of these MySQL credentials again:
   Root User: adminjRnLFYr
   Root Password: nC1rsiblGIbA
 URL: https://gc-hareesh505.rhcloud.com/phpmyadmin/
+
+
+new line
 
 
 
